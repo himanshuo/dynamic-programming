@@ -1,0 +1,17 @@
+name: ways
+version: 0.1.0.2
+
+dependencies:
+  - base
+
+library:
+  exposed-modules: Ways
+  source-dirs: src
+
+tests:
+  test:
+    main: Tests.hs
+    source-dirs: test
+    dependencies:
+      - ways
+      - hspec
