@@ -40,12 +40,10 @@ cd "$PROJECT_NAME"
 # 4. setup stack
 stack init
 
-# 5. Setup Git
-
-# 6. Come back to original directory
+# 5. Come back to original directory
 cd ../
 
-# 7. Provide commands for user to use stack
+# 6. Provide commands for user to use stack
 echo ""
 echo ""
 echo "===============SUCCESS====================="
