@@ -51,6 +51,10 @@ cases = [ Case {  description     = "0"
           Case {  description     = "6"
                 , n               = 6
                 , expected        = 132
+               },
+          Case {  description     = "20"
+                , n               = 20
+                , expected        = 6564120420
                }
         ]
 
